@@ -23,3 +23,7 @@ https://user-images.githubusercontent.com/17986177/181935169-370a44d8-415f-4558-
 Convex Hull (Melkman's Algorithm) (for Simple Polygon only)
 
 https://user-images.githubusercontent.com/17986177/181935306-0bf5284d-a391-49ff-ad64-c829ad6bdcbb.mp4
+
+Convex Hull (Quick Hull)
+
+https://user-images.githubusercontent.com/17986177/183371090-24ef5f0f-724b-43ae-88cf-b91fdec27411.mp4
