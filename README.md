@@ -1,11 +1,11 @@
 # ComputationalGeometry
 
 
+Quaternion & Rotation
 
+Rotation in Unity is represented by a Quaternion (x, y, z, w), where w is related to the rotating angle theta (value is Cos(theta/2) ), and (x, y, z) is related to the axis rotating around (value is the exact axis vector * Sin(theta/2) ).
 
-
-
-
+https://user-images.githubusercontent.com/17986177/183378432-cb155f87-405d-4137-803e-fc011e7c4eea.mp4
 
 
 Convex Hull (凸包)
