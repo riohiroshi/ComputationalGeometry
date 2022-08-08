@@ -118,17 +118,17 @@ public class GeometryTest : MonoBehaviour
 
         var pP = _pointP.position;
 
-        //Gizmos.color = Color.blue;
-        //Gizmos.DrawLine(pP, pP + _pointP.forward);
-        //Gizmos.DrawSphere(pP + _pointP.forward, 0.1f);
+        Gizmos.color = Color.blue;
+        Gizmos.DrawLine(pP, pP + _pointP.forward);
+        Gizmos.DrawSphere(pP + _pointP.forward, 0.1f);
 
-        //Gizmos.color = Color.red;
-        //Gizmos.DrawLine(pP, pP + _pointP.right);
-        //Gizmos.DrawSphere(pP + _pointP.right, 0.1f);
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(pP, pP + _pointP.right);
+        Gizmos.DrawSphere(pP + _pointP.right, 0.1f);
 
-        //Gizmos.color = Color.green;
-        //Gizmos.DrawLine(pP, pP + _pointP.up);
-        //Gizmos.DrawSphere(pP + _pointP.up, 0.1f);
+        Gizmos.color = Color.green;
+        Gizmos.DrawLine(pP, pP + _pointP.up);
+        Gizmos.DrawSphere(pP + _pointP.up, 0.1f);
 
         Gizmos.color = Color.white;
         Gizmos.DrawWireSphere(pP, 0.025f);
@@ -139,7 +139,7 @@ public class GeometryTest : MonoBehaviour
 
         var axis = new Vector3(rot.x / s, rot.y / s, rot.z / s);
 
-        Handles.Label(pP + Vector3.down * 0.1f, $"{(theta)}, ({(rot.x / s)}, {(rot.y / s)}, {(rot.z / s)})");
+        Handles.Label(pP + Vector3.down * 0.1f, $"{(theta):0.00}, ({(rot.x / s):0.00}, {(rot.y / s):0.00}, {(rot.z / s):0.00})");
 
         Gizmos.DrawLine(pP, pP + axis);
     }
